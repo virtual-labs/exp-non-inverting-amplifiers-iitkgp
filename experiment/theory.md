@@ -31,12 +31,12 @@ or, $$I=\frac{(V_2-V_{out})}{R_F}$$
 $$I=\frac{V_{in}}{R_{in}}-\frac{V_2}{R_{in}}=\frac{V_2}{R_F}-\frac{V_{out}}{R_F}$$   
 
 So,  $$\frac{V_{in}}{R_{in}}= V2\times (\frac{1}{R_{in}}+\frac{1}{R})- \frac{V_{out}}{R_F}$$       
-and as, $$V_2 =0$$ 
+and as, V<sub>2</sub> =0 
     $$  I =\frac{(V_{in}-0)}{Rin}=\frac{(0-V_{out})}{R_F}$$ 
 or, $$ \frac{R_F}{R_{in}} = -  \frac{V_{out}}{V_{in}}$$       			                 
-The close loop gain (\(A_{cl}\)) is given by :- 
+The close loop gain (A<sub>cl</sub>) is given by :- 
 $$A_{cl}= \frac{V_{out}}{V_{in}}  = - \frac{R_F}{R_{in}}$$
-Output voltage (\(V_{out}\)) is given by :-
+Output voltage (V<sub>out</sub>) is given by :-
 $$V_{out} =  -\frac{R_F}{R_{in} } \times V_{in}$$ 
 
 
@@ -50,11 +50,11 @@ $$V_{out} =  -\frac{R_F}{R_{in} } \times V_{in}$$
 
 Potential difference V1 can be written as
        $$V_1 = \frac{R_2}{(R_2+R_F)}\times V_{out}$$		
-in ideal condition : $$V_1=V_{in}$$
-SO, $$V_{in} = \frac{R_2}{(R_2+R_F)}\times V_{out}$$       
+in ideal condition : V<sub>1</sub>=V<sub>in</sub>
+So, $$V_{in} = \frac{R_2}{(R_2+R_F)}\times V_{out}$$       
 and as we know Gain $$A_{cl}=\frac{V_{out}}{V_{in}}$$
 $$A_{cl}=  \frac{V_{out}}{V_{in}} = \frac{(R_2+R_F)}{R_2} = 1+\frac{R_F}{R_2}$$   
-and Output Voltage $$V_{out}$$ is given by:
+and Output Voltage V<sub>out</sub> is given by:
 $$V_{out} =[1+\frac{R_F}{R_2}]*V_{in}$$ 
 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
