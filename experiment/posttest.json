@@ -2,38 +2,97 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "A differential amplifier",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": " is a part of an Op-pam",
+        "b": "has two outputs",
+        "c": "has one input and one outputs",
+        "d": "Both A and B"
+        
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "You have choosen option (a). The answer is incorrect  ",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is incorrect",
+        "d":"You have choosen option (d). The answer is correct"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "With zero volts on both inputs, an OP-amp ideally should have an output",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "equal to the negative supply voltage",
+        "b": "equal to zero",
+        "c": "equal to positive supply voltage",
+        "d": "equal to CMRR"
+        
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "You have choosen option (a). The answer is incorrect  ",
+        "b": "You have choosen option (b). The answer is correct",
+        "c": "You have choosen option (c). The answer is incorrect",
+        "d":"You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For an Op-amp with negative feedback, the output is",
+      "answers": {
+        "a": "increased",
+        "b": "equal to the input",
+        "c": "fed back to the inverting input",
+        "d": "fed back to the noninverting input"
+        
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect  ",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is correct",
+        "d":"You have choosen option (d). The answer is incorrect"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "The Op-pam can amplify",
+      "answers": {
+        "a": "DC signals only",
+        "b": "AC signal only",
+        "c": "both AC and DC signals",
+        "d": "Neither AC nor DC signals"
+        
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect  ",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is correct",
+        "d":"You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "An ideal operational amplifier has",
+      "answers": {
+        "a": "Infinite bandwidth",
+        "b": "Infinite output impedence",
+        "c": "Zero input impedence",
+        "d": "All of the above"
+        
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is correct  ",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is incorrect",
+        "d":"You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
+    
+    
+    
   ]
 }
