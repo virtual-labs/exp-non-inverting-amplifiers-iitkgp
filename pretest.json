@@ -1,0 +1,99 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "OPAMP is a/an",
+        "answers": {
+          "a": "Rectifier",
+          "b": "Oscillator",
+          "c": "Differential Amplifier",
+          "d":"None of the above"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect",
+          "b": "You have choosen option (b). The answer is incorrect",
+          "c": "You have choosen option (c). The answer is correct",
+          "d":"You have choosen option (d). The answer is incorrect"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The bandwidth of an ideal op-amp is infinite",
+        "answers": {
+          "a": "False",
+          "b": "True"
+          
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect  ",
+          "b": "You have choosen option (b). The answer is correct"
+          
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The gain of an op-amp voltage follower is unity",
+        "answers": {
+          "a": "False",
+          "b": "True"
+          
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect  ",
+          "b": "You have choosen option (b). The answer is correct"
+          
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Ideal op-amp has infinite voltage gain",
+        "answers": {
+          "a": "to receive zero noise voltage",
+          "b": "to obtain finit output voltage",
+          "c": "to contot the output voltage",
+          "d": "None of the above"
+          
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect  ",
+          "b": "You have choosen option (b). The answer is correct",
+          "c": "You have choosen option (c). The answer is incorrect  ",
+          "d": "You have choosen option (d). The answer is incorrect"
+          
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Purpose of an operational amplifier is",
+        "answers": {
+          "a": "The basic role of an operational amplifier is to input the voltage difference between the two input pins.",
+          "b": "The basic role of an operational amplifier is to amplify and output the voltage difference between the two pins",
+          "c": "Both A and B.",
+          "d": "None of the above"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect  ",
+          "b": "You have choosen option (b). The answer is correct",
+          "c": "You have choosen option (c). The answer is incorrect  ",
+          "d": "You have choosen option (d). The answer is incorrect"
+          
+          
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+
+  
+
+    ]
+  }
+  
