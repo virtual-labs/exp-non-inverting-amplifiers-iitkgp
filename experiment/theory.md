@@ -9,7 +9,7 @@ Operational Amplifier commonly known as Op-Amp, is a linear elcectronic device h
 Op-Amp shows some properties that make it an ideal amplifier, its open loop gain and input impedance is infinite (i.e.,practically very high), Output impedance and offset voltage is zero(i.e.,practically very low) and bandwidth is infinite(i.e.,practically limitted to frequency where its gain become unity).
 
 <div align="center">
-<img src="images/opamp.png" width="50%">
+<img src="images/opamp.png" style="max-width:100%; height:auto;">
 <p>Figure 1  </p>
 </div>
 
@@ -18,7 +18,7 @@ Op-Amp shows some properties that make it an ideal amplifier, its open loop gain
 
 The open loop gain(Ao) of the Om-Apm is very high which makes it very unstable, so to make it stable with a controlable gain, a feed back is applied through some external resistor(Rf) from its output to inverting input terminal(i.e.,also known as negative feedback) resulting in reduced gain(cloosed loop gain, Av). So the voltage at inverting terminal is now the sum of the actual input and feedback voltages, and to separate both a input resistor(Ri) is introduced in the circuit. The non inverting terminal of the opamp is grounded, and the inverting terminal behaves like a virtual ground as the junction of the input and feedback signal are at the same potential.
 <div align="center">
-<img src="images/invertingopmp.png" width="50%">
+<img src="images/invertingopmp.png" style="max-width:100%; height:auto;">
 <p>Figure 2  </p>
 </div>
 
@@ -44,7 +44,7 @@ $$V_{out} =  -\frac{R_F}{R_{in} } \times V_{in}$$
 
 1. In this configuration of Op-amp the input signal is directly fed to the non inverting terminal resulting in a positive gain and output voltage in phase with input as compared to inverting Op-amp where the gain is negative and output voltage is out of phase with input , and to stabalize the circuit a negative feedback is applied through a resistor(Rf) and the inverting terminal is grounded witha input resistor(R2).This inverting Op-Amp like layout the at inverting terminal creates a virtual ground at the summing point make the Rf and R2 a potential divider accross inverting terminal, Hence determines the gain of the circuit.
 <div align="center">
-<img src="images/noninvertingopamp.png" width="50%">
+<img src="images/noninvertingopamp.png" style="max-width:100%; height:auto;">
 <p>Figure 3  </p>
 </div>
 
