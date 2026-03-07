@@ -3,7 +3,7 @@
 
 
 
-Operational Amplifier commonly known as Op-Amp, is a linear elcectronic device having three terminals, two high impedence input and one output terminal. Op-Amp can perform multiple function when attached to diffrent feedback combinations like resistive, capacitive or both. Generally it is used as voltage amplifier and the output voltage of the Op-Amp is the diffrence between the voltages at its two input terminals.
+Operational Amplifier commonly known as Op-Amp, is a linear elcectronic device having three terminals, two high impedence input and one output terminal. Op-Amp can perform multiple function when attached to different feedback combinations like resistive, capacitive or both. Generally it is used as voltage amplifier and the output voltage of the Op-Amp is the diffrence between the voltages at its two input terminals.
 
 
 Op-Amp shows some properties that make it an ideal amplifier, its open loop gain and input impedance is infinite (i.e.,practically very high), Output impedance and offset voltage is zero(i.e.,practically very low) and bandwidth is infinite(i.e.,practically limitted to frequency where its gain become unity).
@@ -42,7 +42,7 @@ $$V_{out} =  -\frac{R_F}{R_{in} } \times V_{in}$$
 
 ### Non-Inverting Op-Amp
 
-1. In this configuration of Op-amp the input signal is directly fed to the non inverting terminal resulting in a positive gain and output voltage in phase with input as compared to inverting Op-amp where the gain is negative and output voltage is out of phase with input , and to stabalize the circuit a negative feedback is applied through a resistor(Rf) and the inverting terminal is grounded witha input resistor(R2).This inverting Op-Amp like layout the at inverting terminal creates a virtual ground at the summing point make the Rf and R2 a potential divider accross inverting terminal, Hence determines the gain of the circuit.
+In this configuration of Op-amp the input signal is directly fed to the non inverting terminal resulting in a positive gain and output voltage in phase with input as compared to inverting Op-amp where the gain is negative and output voltage is out of phase with input , and to stabalize the circuit a negative feedback is applied through a resistor(Rf) and the inverting terminal is grounded witha input resistor(R2).This inverting Op-Amp like layout the at inverting terminal creates a virtual ground at the summing point make the Rf and R2 a potential divider accross inverting terminal, Hence determines the gain of the circuit.
 <div align="center">
 <img src="images/noninvertingopamp.png" style="max-width:100%; height:auto;">
 <p>Figure 3  </p>
